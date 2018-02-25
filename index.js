@@ -20,3 +20,10 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
+function appendKitten(name) {
+  kittens.
+}
+
+ describe('appendKitten(name)', function() {
+    it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
+      expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
