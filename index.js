@@ -10,6 +10,17 @@ function destructivelyPrependKitten(name) {
   return kittens;
 }
 
-function destructivelyRemoveLastKitten(name) {
-  
+function destructivelyRemoveLastKitten() {
+  kittens.shift();
+  return kittens;
 }
+
+
+
+
+  describe('destructivelyRemoveFirstKitten()', function() {
+    it('removes the First kitten from the kittens array', function() {
+      destructivelyRemoveFirstKitten()
+
+      expect(window.kittens).toEqual(["Otis", "Garfield"])
+    })
