@@ -24,6 +24,6 @@ function appendKitten(name) {
   return [...kittens, name];
 }
 
- describe('appendKitten(name)', function() {
-    it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
+function prependKitten(name) {
+  return [name, ...kitten];
+}
