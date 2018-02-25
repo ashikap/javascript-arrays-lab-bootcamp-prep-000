@@ -32,5 +32,12 @@ function removeLastKitten(name) {
   return kittens.slice(0, kittens.length -1)
 }
 
+function removeFirstKitten(name){
+  
+}
 
+function addElementToBeginningOfArray(array, element) {
+  var newArray = [element, array[0]]
+  return newArray
+}
 
